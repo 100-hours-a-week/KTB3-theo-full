@@ -3,6 +3,7 @@
 자바 CLI 프로그램 만들기
 
 - 클래스 다이어 그램 작성
+- <img width="1440" height="1081" alt="Image" src="https://github.com/user-attachments/assets/4f82776e-9861-407b-9723-f09eae8ba7b1" />
 
 
 
