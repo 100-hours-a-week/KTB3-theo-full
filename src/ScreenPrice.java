@@ -1,6 +1,6 @@
 enum ScreenPrice {
     IMAX(18000),
-    TwoD(14000);
+    TWOD(14000);
 
     private final int price;
 

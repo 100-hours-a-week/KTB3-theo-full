@@ -13,6 +13,7 @@ public class IMAX extends Movie{
         return price;
     }
 
+    @Override
     public String getMovieInfo() {
         return String.format("%s | %s", super.getMovieInfo(), screenType.getValue());
     }
