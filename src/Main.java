@@ -10,6 +10,7 @@ public class Main {
             System.out.println(UI.START_MENU.display()); // 초기 화면 display
             System.out.print(UI.SELECT_START.display());
 
+            System.out.println("test");
             if (s.nextInt() == 1) {
                 Movie[] movies = displayMovieList();
                 int selectMovieNum = s.nextInt(); // 영화 선택

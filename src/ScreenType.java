@@ -6,6 +6,7 @@ public enum ScreenType {
         this.screenType = screenType;
     }
 
+    // test
     public String getValue() {
         return screenType;
     }

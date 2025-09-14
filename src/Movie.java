@@ -7,7 +7,7 @@ public class Movie extends Content{
     private double reviewRating;
     private LocalDate releaseDate;
     private double filmRating;
-    private int price = ScreenPrice.TwoD.getPrice();
+    private int price = ScreenPrice.TWOD.getPrice();
 
     public Movie(String name, String genre, String director, int runningTime, double reviewRating,
                  LocalDate releaseDate, int filmRating) {
