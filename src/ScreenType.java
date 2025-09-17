@@ -7,7 +7,7 @@ public enum ScreenType {
     }
 
     // test
-    public String getValue() {
+    public String getScreenType() {
         return screenType;
     }
 }

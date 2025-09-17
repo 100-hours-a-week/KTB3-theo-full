@@ -14,7 +14,10 @@ public class IMAX extends Movie{
     }
 
     @Override
+    public String getScreenType() { return screenType.getScreenType();}
+
+    @Override
     public String getMovieInfo() {
-        return String.format("%s | %s", super.getMovieInfo(), screenType.getValue());
+        return String.format("%s | %s", super.getMovieInfo(), screenType.getScreenType());
     }
 }

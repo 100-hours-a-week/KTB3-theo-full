@@ -4,12 +4,12 @@ import java.time.format.DateTimeFormatter;
 public class ScreenTime {
     private Movie movie;
     private LocalDateTime time;
-    private int[][] seats;
+    private boolean[][] seats;
 
     public ScreenTime(Movie movie, LocalDateTime time) {
         this.movie = movie;
         this.time = time;
-        this.seats = new int[3][3];
+        this.seats = new boolean[3][3];
     }
 
     public Movie getMovie() {
@@ -20,7 +20,7 @@ public class ScreenTime {
         return time.format(DateTimeFormatter.ofPattern("MM월 dd일 HH:mm"));
     }
 
-    public int[][] getSeats() {
+    public boolean[][] getSeats() {
         return seats;
     }
 }
