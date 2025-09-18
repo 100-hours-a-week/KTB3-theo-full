@@ -173,7 +173,7 @@ public class CinemaService<T> {
     // 결제요청화면 출력
     private void displayRequestPayment(Movie selectMovie) {
         UI.PAYMENT_START.linePrint();
-//        System.out.println("ㅁ " + moviePrice + "원입니다.");
+        System.out.println("ㅁ " + selectMovie.getPrice() + "원입니다.");
         UI.PAYMENT_REQUEST.linePrint();
         UI.DIVIDING_LINE.linePrint();
         UI.REQUEST_PAYMENT_AMOUNT.print();
