@@ -9,7 +9,7 @@ import java.time.format.DateTimeFormatter;
 public class ScreenTime {
     private Movie movie;
     private LocalDateTime time;
-    private boolean[][] seats;
+    private volatile boolean[][] seats;
 
     public ScreenTime(Movie movie, LocalDateTime time) {
         this.movie = movie;
