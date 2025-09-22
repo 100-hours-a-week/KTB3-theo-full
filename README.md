@@ -14,7 +14,7 @@
 - 좌석을 공유자원으로 설정하여 스레드를 활용하여 좌석 예약하는 기능을 구현하였음
 
 ## 실행영상
-
+https://github.com/user-attachments/assets/e2753aa1-b828-4b59-baf9-3a49de2de799
 
 ## 실행화면
 ```
