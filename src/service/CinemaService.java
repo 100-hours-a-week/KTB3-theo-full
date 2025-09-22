@@ -44,6 +44,9 @@ public class CinemaService {
         } catch (Exception e) {
             e.printStackTrace();
             UI.ERROR_MENU.linePrint();
+        } finally {
+            Cinema_Util cu = new Cinema_Util();
+            cu.closeScanner();
         }
     }
 

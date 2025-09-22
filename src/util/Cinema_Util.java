@@ -3,7 +3,7 @@ package util;
 import java.util.Scanner;
 
 public class Cinema_Util {
-    protected static Scanner s = new Scanner(System.in);
+    private static Scanner s = new Scanner(System.in);
 
     public static int getUserIntegerInput() {
         int input = 0;
@@ -34,6 +34,9 @@ public class Cinema_Util {
         return input;
     }
 
+    public void closeScanner() {
+        s.close();
+    }
     public static boolean isNull(Object t) {
         return t == null;
     }
