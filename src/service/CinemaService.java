@@ -18,8 +18,7 @@ public class CinemaService {
 
     public void start() {
         try {
-            printStartMenu();
-            selectStartMenu(Cinema_Util.getUserIntegerInput());
+            selectStartMenu();
 
             Movie[] movies = getMovieList();
             displayMovieList(movies);
@@ -59,8 +58,13 @@ public class CinemaService {
         return true;
     }
 
-    private boolean selectStartMenu(int num) {
-        return num == 1;
+    private boolean selectStartMenu() {
+        printStartMenu();
+        int num;
+        while ((num = Cinema_Util.getUserIntegerInput()) != CinemaServiceConfig.YES.getConfig()) {
+            printStartMenu();
+        }
+        return true;
     }
 
     // util.DB -> 영화리스트 가져오기
